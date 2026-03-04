@@ -1,0 +1,14 @@
+.Rhistory
+.RData
+.Rproj.user/
+
+# Data (avoid publishing clinical data)
+data/raw/*
+data/processed/*
+*.rds
+*.xlsx
+*.csv
+
+# Keep folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
